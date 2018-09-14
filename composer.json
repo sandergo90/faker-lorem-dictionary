@@ -1,0 +1,21 @@
+{
+    "name": "sandergo90/faker-lorem-dictionary",
+    "description": "Adds faker provider with an extended lorem dictionary.",
+    "keywords": ["faker", "provider", "neuralyzer"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sander Goossens",
+            "email": "sander@kodeus.be",
+            "homepage": "https://kodeus.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Goossens\\Faker\\": "src/Faker" }
+    },
+    "require": {
+        "php": "^7.1",
+        "fzaninotto/faker": "^1",
+    }
+}
